@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #343a40;
+    color: whitesmoke;
+    font-family: 'Exo 2', sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #ff499e, #1d4e89);
+    padding: 2em;
+    margin-bottom: 0;
+    color: whitesmoke;
+}
+
+.container {
+    margin-top: 0;
+    border-top: 1px solid whitesmoke;  
+}
+
+
+.units {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+
+h2 {
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+
+h4 {
+    margin-top: 0;
+    padding-top: 2em;
+}
+
+p {
+    margin-top: 0;
+    padding: 0.5em;
+    /* border: 2px solid green; */
+}
+
+#meter-feet,
+#liters-gallons,
+#kilograms-pounds {
+    border-right: 2px solid whitesmoke;
+    padding-left: 1em;
+}
+
